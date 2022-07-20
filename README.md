@@ -3,7 +3,7 @@
 The jupyter lab is run in the docker. In order to setup the docker, please follow these steps:
 1. In the current folder type docker pull jupyter/r-notebook
 2. In the current folder type mkdir wvol
-3. In the current folder docker run  --rm -it -p 8888:8888  --gpus all -v "$(pwd)"/wvol:/home/jovyan/work styleclip:latest /bin/bash
+3. In the current folder type docker run  --rm -it -p 8888:8888  --gpus all -v "$(pwd)"/wvol:/home/jovyan/work styleclip:latest /bin/bash
 4. In the container, go to the work directory and type jupyter lab
 
 ## Garch Models
